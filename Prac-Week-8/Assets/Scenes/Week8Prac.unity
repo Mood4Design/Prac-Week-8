@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &286370791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4926837695660266159, guid: 7151fbfc4127e425b8d8d9dcfb213483, type: 3}
+  m_PrefabInstance: {fileID: 872114294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &286370797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286370791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf37dbe8c28d3f6448a5c384c13f59d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &327165782 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 251713878114363013, guid: e1d7632ea26934cdc8ba6f7649dd5d7a, type: 3}
@@ -197,6 +214,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b031781d8a26b4326b1f8aeafc8e4074, type: 3}
+--- !u!1 &534498606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7820117148840797118, guid: b031781d8a26b4326b1f8aeafc8e4074, type: 3}
+  m_PrefabInstance: {fileID: 352129480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &534498612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534498606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf37dbe8c28d3f6448a5c384c13f59d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &639154081
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +393,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ' Player2'
       objectReference: {fileID: 0}
+    - target: {fileID: 251713878114363013, guid: e1d7632ea26934cdc8ba6f7649dd5d7a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 251713878114363013, guid: e1d7632ea26934cdc8ba6f7649dd5d7a, type: 3}
+      propertyPath: m_TagString
+      value: Player2
+      objectReference: {fileID: 0}
     - target: {fileID: 251713878114532005, guid: e1d7632ea26934cdc8ba6f7649dd5d7a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -477,6 +519,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 173250860381724297, guid: daddcfcaf49cf45fca9625db2e0288c8, type: 3}
+      propertyPath: scoreText2
+      value: 
+      objectReference: {fileID: 1958415063}
     - target: {fileID: 173250860381724302, guid: daddcfcaf49cf45fca9625db2e0288c8, type: 3}
       propertyPath: m_Name
       value: UI
@@ -641,7 +687,7 @@ GameObject:
   - component: {fileID: 1958415064}
   - component: {fileID: 1958415063}
   m_Layer: 5
-  m_Name: ScoreText (1)
+  m_Name: ScoreText 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -709,6 +755,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958415061}
   m_CullTransparentMesh: 1
+--- !u!1 &2066289059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6500450751455719185, guid: 98227e40f8e7d404a866ec9f44e37dfb, type: 3}
+  m_PrefabInstance: {fileID: 5538578147837906930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2066289066
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066289059}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &4556067400463564022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8351534437015532292, guid: 98227e40f8e7d404a866ec9f44e37dfb, type: 3}
