@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
         rigi = GetComponent<Rigidbody>();
     }
     //Update is called once per frame
+    
     void Update () 
     {
         rigi.velocity = new Vector3(Input.GetAxis ("Horizontal") * moveSpeed, rigi.velocity.y, Input.GetAxis("Vertical") * moveSpeed);
@@ -23,5 +24,6 @@ public class Player : MonoBehaviour
             rigi.velocity = new Vector3(rigi.velocity.x, jumpForce, rigi.velocity.z);
         }
     }
+
 
 }

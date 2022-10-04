@@ -14,13 +14,19 @@ public class Scorekeeper : MonoBehaviour
     [SerializeField]
     private int pointsPerCoin = 10;
     [SerializeField]
-    
+    private int pointsPerCoin2 = 10;
+  
 
     private int score = 0;
+    private int score2 = 0;
 
     public int Score 
     {
         get { return score; }
+    }
+    public int Score2 
+    {
+        get { return score2; }
     }
 
 
@@ -31,7 +37,11 @@ public class Scorekeeper : MonoBehaviour
 
     public void AddPointsForCoin()
     {
-        score += pointsPerCoin;
+        score += pointsPerCoin; 
     }
-
+    public void AddPointsForCoin2()
+    {
+        score2 += pointsPerCoin2;
+    }
+    
 }

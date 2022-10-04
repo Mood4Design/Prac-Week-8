@@ -24,5 +24,10 @@ public class Coin : MonoBehaviour
             Scorekeeper.Instance.AddPointsForCoin();
             Destroy(gameObject);
         }
+        else if(other.CompareTag("Player2"))
+        {
+            Scorekeeper.Instance.AddPointsForCoin2();
+            Destroy(gameObject);
+        }
     }
 }
